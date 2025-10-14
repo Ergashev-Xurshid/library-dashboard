@@ -1,11 +1,11 @@
-import Dashboard from "./components/Dashboard/Dashboard";
+import { Outlet } from "react-router-dom";
 import NavbarSite from "./components/NavbarSite";
 
 function App() {
   return (
     <>
       <NavbarSite />
-      <Dashboard />
+      <Outlet/>
     </>
   );
 }

@@ -1,4 +1,10 @@
-import { BookOpen, LayoutDashboard, Settings2, TrendingUpDown } from "lucide-react";
+import {
+  BookOpen,
+  LayoutDashboard,
+  Settings2,
+  TrendingUpDown,
+} from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 function NavbarSite() {
   return (
@@ -21,24 +27,52 @@ function NavbarSite() {
 
         <h4 className="text-4xl font-medium text-white">Kutubxona</h4>
       </div>
-      <ul className="p-2">
-        <li className="mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721] bg-[#ff7806] text-white hover:border-gray-600">
+      <nav className="p-2">
+        <NavLink
+          to={"/"}
+          className={({ isActive }) =>
+            `mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white transition-all duration-200 ${
+              isActive ? "bg-[#ff7806] text-white" : ""
+            }`
+          }
+        >
           <LayoutDashboard />
           <p className="text-[16px] font-medium">Boshqaruv paneli</p>
-        </li>
-        <li className="mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white">
+        </NavLink>
+        <NavLink
+          to={"/books"}
+          className={({ isActive }) =>
+            `mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white transition-all duration-200 ${
+              isActive ? "bg-[#ff7806] text-white" : ""
+            }`
+          }
+        >
           <BookOpen />
           <p className="text-[16px] font-medium ">Kitoblar</p>
-        </li>
-        <li className="mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white">
+        </NavLink>
+        <NavLink
+          to={"bookManagement"}
+          className={({ isActive }) =>
+            `mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white transition-all duration-200 ${
+              isActive ? "bg-[#ff7806] text-white" : ""
+            }`
+          }
+        >
           <Settings2 />
           <p className="text-[16px] font-medium ">Kitoblarni boshqarish</p>
-        </li>
-        <li className="mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white">
-         <TrendingUpDown />
+        </NavLink>
+        <NavLink
+          to={"/sale"}
+          className={({ isActive }) =>
+            `mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white transition-all duration-200 ${
+              isActive ? "bg-[#ff7806] text-white" : ""
+            }`
+          }
+        >
+          <TrendingUpDown />
           <p className="text-[16px] font-medium ">Sotuvlar bo‘limi</p>
-        </li>
-      </ul>
+        </NavLink>
+      </nav>
     </section>
   );
 }

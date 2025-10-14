@@ -1,1 +1,11 @@
 @import "tailwindcss";
+body{
+  background-color:#221c17;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  cursor: pointer;
+}
