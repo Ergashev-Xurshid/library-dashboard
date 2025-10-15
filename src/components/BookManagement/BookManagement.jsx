@@ -134,10 +134,10 @@ function BookManagement() {
             <td className="p-3">Badiiy</td>
             <td className="p-3">45 000 so‘m</td>
             <td className="p-3 flex  gap-2 flex-col ">
-              <button className="bg-blue-600 px-3 py-1 rounded-md cursor-pointer hover:bg-blue-700">
+              <button className=" border-1 border-gray-400 px-3 py-1 rounded-md cursor-pointer hover:text-gray-300">
                 Tahrirlash
               </button>
-              <button className="bg-red-600 px-3 py-1 rounded-md cursor-pointer hover:bg-red-700">
+              <button className="bg-[#ff7806] hover:bg-[#ec7311] text-gre-400 px-3 py-1 rounded-md cursor-pointer">
                 O‘chirish
               </button>
             </td>
@@ -155,10 +155,10 @@ function BookManagement() {
             <td className="p-3">Badiiy</td>
             <td className="p-3">45 000 so‘m</td>
             <td className="p-3 flex  gap-2 flex-col ">
-              <button className="bg-blue-600 px-3 py-1 rounded-md cursor-pointer hover:bg-blue-700">
+              <button className=" border-1 border-gray-400 px-3 py-1 rounded-md cursor-pointer hover:text-gray-300">
                 Tahrirlash
               </button>
-              <button className="bg-red-600 px-3 py-1 rounded-md cursor-pointer hover:bg-red-700">
+              <button className="bg-[#ff7806] hover:bg-[#ec7311] text-gre-400 px-3 py-1 rounded-md cursor-pointer">
                 O‘chirish
               </button>
             </td>
@@ -176,10 +176,10 @@ function BookManagement() {
             <td className="p-3">Badiiy</td>
             <td className="p-3">45 000 so‘m</td>
             <td className="p-3 flex  gap-2 flex-col ">
-              <button className="bg-blue-600 px-3 py-1 rounded-md cursor-pointer hover:bg-blue-700">
+              <button className=" border-1 border-gray-400 px-3 py-1 rounded-md cursor-pointer hover:text-gray-300">
                 Tahrirlash
               </button>
-              <button className="bg-red-600 px-3 py-1 rounded-md cursor-pointer hover:bg-red-700">
+              <button className="bg-[#ff7806] hover:bg-[#ec7311] text-gre-400 px-3 py-1 rounded-md cursor-pointer">
                 O‘chirish
               </button>
             </td>
@@ -197,10 +197,10 @@ function BookManagement() {
             <td className="p-3">Badiiy</td>
             <td className="p-3">45 000 so‘m</td>
             <td className="p-3 flex  gap-2 flex-col ">
-              <button className="bg-blue-600 px-3 py-1 rounded-md cursor-pointer hover:bg-blue-700">
+              <button className=" border-1 border-gray-400 px-3 py-1 rounded-md cursor-pointer hover:text-gray-300">
                 Tahrirlash
               </button>
-              <button className="bg-red-600 px-3 py-1 rounded-md cursor-pointer hover:bg-red-700">
+              <button className="bg-[#ff7806] hover:bg-[#ec7311] text-gre-400 px-3 py-1 rounded-md cursor-pointer">
                 O‘chirish
               </button>
             </td>
@@ -218,10 +218,10 @@ function BookManagement() {
             <td className="p-3">Badiiy</td>
             <td className="p-3">45 000 so‘m</td>
             <td className="p-3 flex  gap-2 flex-col ">
-              <button className="bg-blue-600 px-3 py-1 rounded-md cursor-pointer hover:bg-blue-700">
+              <button className=" border-1 border-gray-400 px-3 py-1 rounded-md cursor-pointer hover:text-gray-300">
                 Tahrirlash
               </button>
-              <button className="bg-red-600 px-3 py-1 rounded-md cursor-pointer hover:bg-red-700">
+              <button className="bg-[#ff7806] hover:bg-[#ec7311] text-gre-400 px-3 py-1 rounded-md cursor-pointer">
                 O‘chirish
               </button>
             </td>
@@ -239,52 +239,10 @@ function BookManagement() {
             <td className="p-3">Badiiy</td>
             <td className="p-3">45 000 so‘m</td>
             <td className="p-3 flex  gap-2 flex-col ">
-              <button className="bg-blue-600 px-3 py-1 rounded-md cursor-pointer hover:bg-blue-700">
+              <button className=" border-1 border-gray-400 px-3 py-1 rounded-md cursor-pointer hover:text-gray-300">
                 Tahrirlash
               </button>
-              <button className="bg-red-600 px-3 py-1 rounded-md cursor-pointer hover:bg-red-700">
-                O‘chirish
-              </button>
-            </td>
-          </tr>
-          <tr className="border-b border-[#333]">
-            <td className="p-3">
-              <img
-                src={bookIMG}
-                alt="book"
-                className="w-12 h-16 object-cover rounded"
-              />
-            </td>
-            <td className="p-3">O‘tkan kunlar</td>
-            <td className="p-3">Abdulla Qodiriy</td>
-            <td className="p-3">Badiiy</td>
-            <td className="p-3">45 000 so‘m</td>
-            <td className="p-3 flex  gap-2 flex-col ">
-              <button className="bg-blue-600 px-3 py-1 rounded-md cursor-pointer hover:bg-blue-700">
-                Tahrirlash
-              </button>
-              <button className="bg-red-600 px-3 py-1 rounded-md cursor-pointer hover:bg-red-700">
-                O‘chirish
-              </button>
-            </td>
-          </tr>
-          <tr className="border-b border-[#333]">
-            <td className="p-3">
-              <img
-                src={bookIMG}
-                alt="book"
-                className="w-12 h-16 object-cover rounded"
-              />
-            </td>
-            <td className="p-3">O‘tkan kunlar</td>
-            <td className="p-3">Abdulla Qodiriy</td>
-            <td className="p-3">Badiiy</td>
-            <td className="p-3">45 000 so‘m</td>
-            <td className="p-3 flex  gap-2 flex-col ">
-              <button className="bg-blue-600 px-3 py-1 rounded-md cursor-pointer hover:bg-blue-700">
-                Tahrirlash
-              </button>
-              <button className="bg-red-600 px-3 py-1 rounded-md cursor-pointer hover:bg-red-700">
+              <button className="bg-[#ff7806] hover:bg-[#ec7311] text-gre-400 px-3 py-1 rounded-md cursor-pointer">
                 O‘chirish
               </button>
             </td>

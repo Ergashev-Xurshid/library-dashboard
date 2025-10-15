@@ -31,17 +31,21 @@ function Sale() {
           <h2 className="text-2xl font-bold text-white mt-2">45 ta</h2>
         </div>
       </div>
-      <div className="flex items-center gap-4 mb-10">
-        <div className="relative">
-          <input
-            type="date"
-            className="border px-3 py-2 rounded-lg outline-none text-gray-400 w-full bg-[#2d2721] "
-          />
-          <CalendarDays className="absolute right-3 top-2.5 text-gray-400 pointer-events-none" />
-        </div>
-        <button className="bg-[#ff7806] hover:bg-[#e56d05] text-white cursor-pointer rounded-lg px-4 py-2">
-          Tahlil qilish
-        </button>
+      <div className="flex  justify-end gap-4 mb-10">
+        <select className="bg-[#2d2721] text-white px-4 py-2 outline-none cursor-pointer  rounded-lg  border border-gray-400">
+          <option value="yanvar">Yanvar</option>
+          <option value="fevral">Fevral</option>
+          <option value="mart">Mart</option>
+          <option value="aprel">Aprel</option>
+          <option value="may">May</option>
+          <option value="iyun">Iyun</option>
+          <option value="iyul">Iyul</option>
+          <option value="avgust">Avgust</option>
+          <option value="sentabr">Sentabr</option>
+          <option value="oktabr">Oktabr</option>
+          <option value="noyabr">Noyabr</option>
+          <option value="dekabr">Dekabr</option>
+        </select>
       </div>
       <DayBarChart />
     </section>

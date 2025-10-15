@@ -25,21 +25,22 @@ const DayBarChart = () => {
       <ResponsiveContainer width="100%" height={350}>
         <BarChart data={salesData}>
           <CartesianGrid strokeDasharray="3 3" stroke="#3a3129" />
-          <XAxis dataKey="day" tick={{ fill: "#888"}} />
-          <YAxis tick={{ fill: "#888"}} />
+          <XAxis dataKey="day" tick={{ fill: "#888" }} />
+          <YAxis tick={{ fill: "#888" }} />
           <Tooltip
+            cursor={false}
             contentStyle={{
               backgroundColor: "#2d2721",
-               color: "#fff",
+              color: "#fff",
             }}
             formatter={(value) => `${value.toLocaleString()} so‘m`}
           />
           <defs>
-              <linearGradient id="barGradient" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stopColor="#FFB347" />
-                <stop offset="100%" stopColor="#FF6600" />
-              </linearGradient>
-            </defs>
+            <linearGradient id="barGradient" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="#FFB347" />
+              <stop offset="100%" stopColor="#FF6600" />
+            </linearGradient>
+          </defs>
           <Bar dataKey="revenue" fill="#ff7806" radius={[6, 6, 0, 0]} />
         </BarChart>
       </ResponsiveContainer>
