@@ -42,7 +42,7 @@ function Books() {
       <div className="fixed top-0 left-[20%] w-[80%] bg-[#221c17] z-50 p-8 pb-4">
         <div className="h-[70px]">
           <Card>
-            <h1 className="font-medium text-2xl text-white">Kitoblar</h1>
+            <h1 className="font-medium text-2xl text-white select-none">Kitoblar</h1>
           </Card>
         </div>
         <div className="mt-5 w-full bg-[#2d2721] rounded-lg ">

@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "../Card";
 import DayBarChart from "./DayBarChart";
 import { CalendarDays } from "lucide-react";
 
 function Sale() {
+  const [ dataSale , setDataSale ] = useState(null)
   return (
     <section className="ml-[20%] p-8 bg-[#221c17] h-[100vh]">
       <div className="fixed top-0 left-[20%] w-[80%] bg-[#221c17] z-50 p-8 pb-4">
         <div className="h-[70px]">
           <Card>
-            <h1 className="font-medium text-2xl text-white">
+            <h1 className="font-medium text-2xl text-white select-none">
               Sotuvlar bo‘limi
             </h1>
           </Card>
@@ -32,7 +33,7 @@ function Sale() {
         </div>
       </div>
       <div className="flex  justify-end gap-4 mb-10">
-        <select className="bg-[#2d2721] text-white px-4 py-2 outline-none cursor-pointer  rounded-lg  border border-gray-400">
+        <select onChange={(e)=> setDataSale(e.target.value)} className="bg-[#2d2721] text-white px-4 py-2 outline-none cursor-pointer  rounded-lg  border border-gray-400">
           <option value="yanvar">Yanvar</option>
           <option value="fevral">Fevral</option>
           <option value="mart">Mart</option>
@@ -47,7 +48,7 @@ function Sale() {
           <option value="dekabr">Dekabr</option>
         </select>
       </div>
-      <DayBarChart />
+      <DayBarChart dataSale={dataSale}/>
     </section>
   );
 }

@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 function NavbarSite() {
   return (
-    <section className="bg-[#2d2721] w-[20%] fixed bottom-0 top-0 p-5">
+    <section className="bg-[#2d2721] w-[20%] fixed bottom-0 top-0 p-5 select-none">
       <div className="flex gap-5 items-center mb-[40px]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -30,8 +30,9 @@ function NavbarSite() {
       <nav className="p-2">
         <NavLink
           to={"/"}
+          draggable={false}
           className={({ isActive }) =>
-            `mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white transition-all duration-200 ${
+            `select-none  mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white transition-all duration-200 ${
               isActive ? "bg-[#ff7806] text-white" : ""
             }`
           }
@@ -41,6 +42,7 @@ function NavbarSite() {
         </NavLink>
         <NavLink
           to={"/books"}
+          draggable={false}
           className={({ isActive }) =>
             `mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white transition-all duration-200 ${
               isActive ? "bg-[#ff7806] text-white" : ""
@@ -52,6 +54,7 @@ function NavbarSite() {
         </NavLink>
         <NavLink
           to={"bookManagement"}
+          draggable={false}
           className={({ isActive }) =>
             `mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white transition-all duration-200 ${
               isActive ? "bg-[#ff7806] text-white" : ""
@@ -63,6 +66,7 @@ function NavbarSite() {
         </NavLink>
         <NavLink
           to={"/sale"}
+          draggable={false}
           className={({ isActive }) =>
             `mb-4 flex gap-2 px-4 py-3 rounded-lg cursor-pointer border-1 border-[#2d2721]  hover:border-gray-600 text-white transition-all duration-200 ${
               isActive ? "bg-[#ff7806] text-white" : ""

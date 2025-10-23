@@ -9,7 +9,7 @@ function DailyRevenue() {
         <h4 className=" text-lg font-semibold">Kunlik tushum</h4>
         <CircleDollarSign />
       </div>
-      <p className="text-4xl text-white font-medium">$120.3</p>
+      <p className="text-4xl text-white font-medium">129.000 so'm</p>
     </Card>
   )
 }

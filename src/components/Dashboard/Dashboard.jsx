@@ -14,7 +14,7 @@ function Dashboard() {
     <section className="ml-[20%] p-8 bg-[#221c17] h-[100vh]">
       <div className="h-[70px]">
         <Card>
-          <h1 className="font-medium text-2xl text-white">Dashboard</h1>
+          <h1 className="font-medium text-2xl text-white select-none">Dashboard</h1>
         </Card>
       </div>
       <div className="grid grid-cols-3 grid-rows-[200px_120px_1fr]  gap-5 mt-5">
