@@ -6,6 +6,7 @@ export const bookArry = [
     author: "Abdulla Qodiriy",
     type: "Badiy",
     sale: 45000,
+    active: true,
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ export const bookArry = [
     author: "Cho‘lpon",
     type: "Badiy",
     sale: 40000,
+    active: true,
   },
   {
     id: 3,
@@ -20,14 +22,23 @@ export const bookArry = [
     author: "Abdulla Qodiriy",
     type: "Badiy",
     sale: 42000,
+    active: true,
   },
-  { id: 4, title: "Sarob", author: "Oybek", type: "Badiy", sale: 38000 },
+  {
+    id: 4,
+    title: "Sarob",
+    author: "Oybek",
+    type: "Badiy",
+    sale: 38000,
+    active: true,
+  },
   {
     id: 5,
     title: "Ulug‘bek xazinasi",
     author: "Odil Yoqubov",
     type: "Badiy",
     sale: 46000,
+    active: true,
   },
 
   // Fantastik
@@ -37,6 +48,7 @@ export const bookArry = [
     author: "Isaac Asimov",
     type: "Fantastik",
     sale: 55000,
+    active: true,
   },
   {
     id: 7,
@@ -44,6 +56,7 @@ export const bookArry = [
     author: "Ray Bradbury",
     type: "Fantastik",
     sale: 48000,
+    active: true,
   },
   {
     id: 8,
@@ -51,6 +64,7 @@ export const bookArry = [
     author: "H.G. Wells",
     type: "Fantastik",
     sale: 50000,
+    active: true,
   },
   {
     id: 9,
@@ -58,6 +72,7 @@ export const bookArry = [
     author: "Andy Weir",
     type: "Fantastik",
     sale: 53000,
+    active: true,
   },
   {
     id: 10,
@@ -65,6 +80,7 @@ export const bookArry = [
     author: "George Orwell",
     type: "Fantastik",
     sale: 47000,
+    active: true,
   },
 
   // Romantik
@@ -74,6 +90,7 @@ export const bookArry = [
     author: "Jane Austen",
     type: "Romantik",
     sale: 45000,
+    active: true,
   },
   {
     id: 12,
@@ -81,6 +98,7 @@ export const bookArry = [
     author: "Margaret Mitchell",
     type: "Romantik",
     sale: 52000,
+    active: true,
   },
   {
     id: 13,
@@ -88,6 +106,7 @@ export const bookArry = [
     author: "Shukrullo",
     type: "Romantik",
     sale: 41000,
+    active: true,
   },
   {
     id: 14,
@@ -95,6 +114,7 @@ export const bookArry = [
     author: "William Shakespeare",
     type: "Romantik",
     sale: 49000,
+    active: true,
   },
   {
     id: 15,
@@ -102,6 +122,7 @@ export const bookArry = [
     author: "Said Ahmad",
     type: "Romantik",
     sale: 43000,
+    active: true,
   },
 
   // Detektiv
@@ -111,6 +132,7 @@ export const bookArry = [
     author: "Arthur Conan Doyle",
     type: "Detektiv",
     sale: 50000,
+    active: true,
   },
   {
     id: 17,
@@ -118,6 +140,7 @@ export const bookArry = [
     author: "Fyodor Dostoyevskiy",
     type: "Detektiv",
     sale: 52000,
+    active: true,
   },
   {
     id: 18,
@@ -125,6 +148,7 @@ export const bookArry = [
     author: "Agatha Christie",
     type: "Detektiv",
     sale: 48000,
+    active: true,
   },
   {
     id: 19,
@@ -132,6 +156,7 @@ export const bookArry = [
     author: "Dan Brown",
     type: "Detektiv",
     sale: 55000,
+    active: true,
   },
   {
     id: 20,
@@ -139,5 +164,6 @@ export const bookArry = [
     author: "Arthur Conan Doyle",
     type: "Detektiv",
     sale: 46000,
+    active: true,
   },
 ];

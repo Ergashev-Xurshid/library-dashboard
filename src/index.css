@@ -9,3 +9,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   width: 100%;
   cursor: pointer;
 }
+.recharts-bar-rectangle:hover {
+  fill-opacity: 1 !important;
+}
+.recharts-tooltip-cursor {
+  fill: transparent !important; /* oq fonni yo‘qotadi */
+}
+.recharts-surface {
+  outline: none !important;
+}
+
+.recharts-bar-rectangle:focus {
+  outline: none !important;
+  stroke: none !important;
+}

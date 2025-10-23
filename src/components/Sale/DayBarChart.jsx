@@ -20,7 +20,7 @@ const DayBarChart = ({dataSale}) => {
   }));
 
   return (
-    <div className="bg-[#1e1813] p-6 overflow-hidden rounded-2xl shadow-md mt-5">
+    <div className="bg-[#2d2721] p-6 overflow-hidden rounded-2xl shadow-md mt-5">
       <h2 className="text-xl font-semibold text-white mb-4">
         {dataSale ? dataSale : "yanvar"} oyi sotuvlar
       </h2>

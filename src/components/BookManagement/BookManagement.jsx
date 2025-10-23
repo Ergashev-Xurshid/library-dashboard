@@ -164,7 +164,7 @@ function BookManagement() {
                 <td className="p-3">{book.title}</td>
                 <td className="p-3">{book.author}</td>
                 <td className="p-3">{book.type}</td>
-                <td className="p-3">{book.sale} so‘m</td>
+                <td className="p-3">{book.sale.toLocaleString()} so‘m</td>
                 <td className="p-3 flex  gap-2 flex-col ">
                   <button className=" border-1 border-gray-400 px-3 py-1 rounded-md cursor-pointer hover:text-gray-300">
                     Tahrirlash
