@@ -18,7 +18,7 @@ function Sale() {
       </div>
       <div className="grid grid-cols-3 gap-5 mt-25  mb-8">
         <div className="bg-[#2d2721] rounded-xl p-5 shadow">
-          <h4 className="text-gray-400 text-sm">📘 Sotilgan kitoblar</h4>
+          <h4 className="text-gray-400 text-sm">📘 Jami sotilgan kitoblar</h4>
           <h2 className="text-2xl font-bold text-white mt-2">125 ta</h2>
         </div>
         <div className="bg-[#2d2721] rounded-xl p-5 shadow">
